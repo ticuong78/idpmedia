@@ -1,0 +1,1 @@
+btnDomainSearch trong domain-search.tpl (cụ thể kohost/includes)
