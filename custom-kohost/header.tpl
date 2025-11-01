@@ -11,7 +11,7 @@
 {if $captcha}{$captcha->getMarkup()}{/if}
 {$headeroutput}
 
-{include file="$template/includes/tt/kohost/tt-homepage.tpl"}
+{include file="$template/includes/tt/custom/tt-custom-homepage.tpl"}
 
 <section id="main-body" class="{if $templatefile == 'homepage'}ptb-100 {/if} {if in_array($templatefile, ['login', 'clientregister', 'password-reset-container', 'logout'])}tt-auth-wrap{/if}">
     <div class="{if !$skipMainBodyContainer}container{/if}">
